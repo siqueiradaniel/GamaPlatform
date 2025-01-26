@@ -1,0 +1,27 @@
+{
+  "gamaPlatformApp": {
+    "exam": {
+      "home": {
+        "title": "Exams",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Exam",
+        "createOrEditLabel": "Criar ou editar Exam",
+        "notFound": "Nenhum Exam encontrado"
+      },
+      "created": "Um novo Exam foi criado com o identificador {{ param }}",
+      "updated": "Um Exam foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Exam foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Exam {{ id }}?"
+      },
+      "detail": {
+        "title": "Exam"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "student": "Student",
+      "learningPath": "Learning Path"
+    }
+  }
+}

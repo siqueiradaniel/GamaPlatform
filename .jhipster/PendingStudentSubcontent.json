@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20250125234822"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "currentStatus",
+      "fieldType": "String"
+    }
+  ],
+  "name": "PendingStudentSubcontent",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "subcontent",
+      "otherEntityRelationshipName": "pendingStudentSubcontent",
+      "relationshipName": "subcontent",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "student",
+      "otherEntityRelationshipName": "pendingStudentSubcontent",
+      "relationshipName": "student",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

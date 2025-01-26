@@ -50,6 +50,20 @@ public class CacheConfiguration {
             createCache(cm, org.gama.platform.domain.User.class.getName());
             createCache(cm, org.gama.platform.domain.Authority.class.getName());
             createCache(cm, org.gama.platform.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.gama.platform.domain.Content.class.getName());
+            createCache(cm, org.gama.platform.domain.Content.class.getName() + ".subcontents");
+            createCache(cm, org.gama.platform.domain.Dependency.class.getName());
+            createCache(cm, org.gama.platform.domain.Exam.class.getName());
+            createCache(cm, org.gama.platform.domain.Exam.class.getName() + ".students");
+            createCache(cm, org.gama.platform.domain.Exam.class.getName() + ".learningPaths");
+            createCache(cm, org.gama.platform.domain.LearningPath.class.getName());
+            createCache(cm, org.gama.platform.domain.PendingStudentSubcontent.class.getName());
+            createCache(cm, org.gama.platform.domain.Student.class.getName());
+            createCache(cm, org.gama.platform.domain.Student.class.getName() + ".pendingStudentSubcontents");
+            createCache(cm, org.gama.platform.domain.Subcontent.class.getName());
+            createCache(cm, org.gama.platform.domain.Subcontent.class.getName() + ".learningPaths");
+            createCache(cm, org.gama.platform.domain.Subcontent.class.getName() + ".dependencies");
+            createCache(cm, org.gama.platform.domain.Subcontent.class.getName() + ".pendingStudentSubcontents");
             // jhipster-needle-ehcache-add-entry
         };
     }

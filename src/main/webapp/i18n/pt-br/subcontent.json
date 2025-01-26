@@ -1,0 +1,29 @@
+{
+  "gamaPlatformApp": {
+    "subcontent": {
+      "home": {
+        "title": "Subcontents",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Subcontent",
+        "createOrEditLabel": "Criar ou editar Subcontent",
+        "notFound": "Nenhum Subcontent encontrado"
+      },
+      "created": "Um novo Subcontent foi criado com o identificador {{ param }}",
+      "updated": "Um Subcontent foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Subcontent foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Subcontent {{ id }}?"
+      },
+      "detail": {
+        "title": "Subcontent"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "learningPath": "Learning Path",
+      "dependency": "Dependency",
+      "pendingStudentSubcontent": "Pending Student Subcontent",
+      "content": "Content"
+    }
+  }
+}

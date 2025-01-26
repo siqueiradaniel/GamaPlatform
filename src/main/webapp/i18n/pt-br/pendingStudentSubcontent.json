@@ -1,0 +1,26 @@
+{
+  "gamaPlatformApp": {
+    "pendingStudentSubcontent": {
+      "home": {
+        "title": "Pending Student Subcontents",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Pending Student Subcontent",
+        "createOrEditLabel": "Criar ou editar Pending Student Subcontent",
+        "notFound": "Nenhum Pending Student Subcontent encontrado"
+      },
+      "created": "Um novo Pending Student Subcontent foi criado com o identificador {{ param }}",
+      "updated": "Um Pending Student Subcontent foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Pending Student Subcontent foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Pending Student Subcontent {{ id }}?"
+      },
+      "detail": {
+        "title": "Pending Student Subcontent"
+      },
+      "id": "ID",
+      "currentStatus": "Current Status",
+      "subcontent": "Subcontent",
+      "student": "Student"
+    }
+  }
+}

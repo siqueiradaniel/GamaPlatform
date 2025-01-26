@@ -1,0 +1,33 @@
+{
+  "annotations": {
+    "changelogDate": "20250125234823"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Student",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "pendingStudentSubcontent",
+      "otherEntityRelationshipName": "student",
+      "relationshipName": "pendingStudentSubcontent",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "exam",
+      "otherEntityRelationshipName": "student",
+      "relationshipName": "exam",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

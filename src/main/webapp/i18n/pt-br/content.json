@@ -1,0 +1,26 @@
+{
+  "gamaPlatformApp": {
+    "content": {
+      "home": {
+        "title": "Contents",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Content",
+        "createOrEditLabel": "Criar ou editar Content",
+        "notFound": "Nenhum Content encontrado"
+      },
+      "created": "Um novo Content foi criado com o identificador {{ param }}",
+      "updated": "Um Content foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Content foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Content {{ id }}?"
+      },
+      "detail": {
+        "title": "Content"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "subcontent": "Subcontent"
+    }
+  }
+}

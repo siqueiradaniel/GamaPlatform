@@ -1,0 +1,26 @@
+{
+  "gamaPlatformApp": {
+    "learningPath": {
+      "home": {
+        "title": "Learning Paths",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Learning Path",
+        "createOrEditLabel": "Criar ou editar Learning Path",
+        "notFound": "Nenhum Learning Path encontrado"
+      },
+      "created": "Um novo Learning Path foi criado com o identificador {{ param }}",
+      "updated": "Um Learning Path foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Learning Path foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Learning Path {{ id }}?"
+      },
+      "detail": {
+        "title": "Learning Path"
+      },
+      "id": "ID",
+      "order": "Order",
+      "exam": "Exam",
+      "subcontent": "Subcontent"
+    }
+  }
+}
